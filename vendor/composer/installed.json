@@ -1,0 +1,68 @@
+[
+    {
+        "name": "homework/function",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/easywebdev/PHP_ITEA_P3_Composer.git",
+            "reference": "master"
+        },
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "index.php"
+            ]
+        }
+    },
+    {
+        "name": "homework/pacegist",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/easywebdev/PHP_ITEA_P1_Composer.git",
+            "reference": "85f0eaaaf44a642e255de9a569b5ae707c20936f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/easywebdev/PHP_ITEA_P1_Composer/zipball/85f0eaaaf44a642e255de9a569b5ae707c20936f",
+            "reference": "85f0eaaaf44a642e255de9a569b5ae707c20936f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "time": "2018-08-10T15:41:05+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "app": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "homework/psr4",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/easywebdev/PHP_ITEA_P2_Composer.git",
+            "reference": "30a0a2813311946977e6c5b7d666aeac37e89d7e"
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "time": "2018-08-10T15:43:15+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "app": ""
+            }
+        }
+    }
+]

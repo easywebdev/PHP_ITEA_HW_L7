@@ -1,0 +1,29 @@
+{
+  "require":{
+    "php":">=7.0.0",
+    "homework/pacegist":"dev-master",
+    "homework/psr4":"dev-master",
+    "homework/function": "1.0.0"
+  },
+  "repositories":[
+    {
+      "type":"git",
+      "url":"https://github.com/easywebdev/PHP_ITEA_P2_Composer.git"
+    },
+    {
+      "type":"package",
+      "package":{
+        "name":"homework/function",
+        "version":"1.0.0",
+        "source":{
+          "type":"git",
+          "url":"https://github.com/easywebdev/PHP_ITEA_P3_Composer.git",
+          "reference":"master"
+        },
+        "autoload":{
+          "files":["index.php"]
+        }
+      }
+    }
+  ]
+}
